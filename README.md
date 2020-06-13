@@ -18,11 +18,15 @@ npm install imgColorPicker --save
 
 ## Usage
 #### Ex:
+```html
+<img id="image" src="paleta.jpg" />
+```
+
 ```js
 import imgColorPicker from 'imgColorPicker'
 
 try {
-  let obj = new imgColorPicker( "img" )
+  let obj = new imgColorPicker( "#image" )
   obj.listener(function( color ){
     console.table([ ["R", "G", "B"],   [ color[0], color[1], color[2] ]  ])
   })
