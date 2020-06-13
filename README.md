@@ -37,7 +37,7 @@ catch (err) {
 ``` 
 
 ## Or in script tag
-```
+```html
 <script src="./PATH/node_modules/imgColorPicker/dist/imgColorPicker.js"></script>
 ```
 
