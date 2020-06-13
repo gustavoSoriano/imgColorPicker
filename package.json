@@ -1,0 +1,8 @@
+{
+  "name": "img-color-picker",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gustavoSoriano/imgColorPicker",
+  "description": "imgColorPicker",
+  "main": "ImagePicker.js",
+  "license": "ISC"
+}

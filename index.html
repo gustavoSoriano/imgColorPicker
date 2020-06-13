@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title> imgColorPicker </title>
+	</head>
+
+	<body>
+		<img src="paleta.jpg" />
+		
+		<script src="./dist/imgColorPicker.js"></script>
+		<script>
+			window.onload = function() {
+				try {
+					let obj = new imgColorPicker( "img" )
+					obj.listener(function( color ){
+						console.clear()
+						console.table([ 
+							["R", "G", "B"], 
+							[ color[0], color[1], color[2] ]
+						])
+						console.log(`%c Oh my heavens! `, `text-shadow:0px 1px 5px #000;background: #e1e8e3; color: rgb( ${color[0]}, ${color[1]}, ${color[2]} )`)
+					})
+				} 
+				catch (err) {
+					console.error(err)
+				}
+			}
+		</script>
+	</body>
+</html>
