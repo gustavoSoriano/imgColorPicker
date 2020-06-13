@@ -4,7 +4,7 @@ Available in [npm](https://www.npmjs.com/package/img-color-picker)
 
 
 <p align="center">
-  <img src="https://github.com/gustavoSoriano/imgColorPicker/blob/master/demo.png" width="300" />
+  <img src="https://github.com/gustavoSoriano/imgColorPicker/blob/master/demo.png"  />
 </p>
 
 
